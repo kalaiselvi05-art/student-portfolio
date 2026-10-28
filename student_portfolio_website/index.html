@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive student portfolio showcasing education, skills, projects, and achievements.">
+  <title>Student Portfolio | Your Name</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">Student<span>Portfolio</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li><li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Your Name <span class="accent">.</span></h1>
+          <h2>Student • Developer • Lifelong Learner</h2>
+          <p class="hero-text">I enjoy building useful digital experiences, learning new technologies, and turning ideas into practical projects.</p>
+          <div class="button-row">
+            <a class="btn primary" href="#projects">Explore Projects</a>
+            <a class="btn secondary" href="assets/resume.txt" download>Download Resume</a>
+          </div>
+          <div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+        </div>
+        <div class="hero-card" aria-label="Profile introduction">
+          <div class="avatar" aria-hidden="true">YN</div>
+          <p class="card-label">CURRENT FOCUS</p><h3>Learning by building</h3>
+          <p>Web development · Problem solving · Data and technology</p>
+          <div class="mini-stats"><div><strong>03+</strong><span>Projects</span></div><div><strong>06+</strong><span>Skills</span></div><div><strong>∞</strong><span>Curiosity</span></div></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about">Scroll to explore ↓</a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">A LITTLE ABOUT ME</p><h2 class="section-title">Curious mind. <span class="accent">Practical builder.</span></h2>
+        <p class="section-lead">I am a student passionate about technology and continuous learning. I like exploring how websites and applications work, collaborating with others, and improving my skills through hands-on projects.</p>
+        <div class="about-grid">
+          <div class="info-card"><span class="info-icon">⌘</span><h3>What I do</h3><p>Build beginner-friendly web projects and practice programming fundamentals.</p></div>
+          <div class="info-card"><span class="info-icon">◎</span><h3>What I value</h3><p>Consistency, clear communication, curiosity, and solving real problems.</p></div>
+          <div class="info-card"><span class="info-icon">↗</span><h3>My goal</h3><p>Grow into a capable developer by learning, creating, and sharing my work.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="education">
+      <div class="container">
+        <p class="eyebrow">MY BACKGROUND</p><h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-card"><span class="date">2025 – Present</span><h3>B.Sc. Computer Science</h3><p class="muted">Your College Name · Your University</p><p>Learning programming, computer fundamentals, software development, and problem-solving.</p></div></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-card"><span class="date">Completed</span><h3>Higher Secondary Education</h3><p class="muted">Your School Name</p><p>Completed higher secondary studies and developed an interest in computers and technology.</p></div></article>
+        </div>
+        <p class="edit-note">Tip: Replace the sample college, school, and dates with your actual details.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I'M LEARNING</p><h2 class="section-title">Technical Skills</h2>
+        <p class="section-lead">These sample skills are editable. Adjust the progress levels to reflect your real proficiency.</p>
+        <div class="skills-grid">
+          <div class="skill"><div class="skill-top"><span>HTML</span><span>85%</span></div><div class="progress"><span style="--level:85%"></span></div></div>
+          <div class="skill"><div class="skill-top"><span>CSS</span><span>75%</span></div><div class="progress"><span style="--level:75%"></span></div></div>
+          <div class="skill"><div class="skill-top"><span>JavaScript</span><span>60%</span></div><div class="progress"><span style="--level:60%"></span></div></div>
+          <div class="skill"><div class="skill-top"><span>Python</span><span>55%</span></div><div class="progress"><span style="--level:55%"></span></div></div>
+          <div class="skill"><div class="skill-top"><span>Git & GitHub</span><span>50%</span></div><div class="progress"><span style="--level:50%"></span></div></div>
+          <div class="skill"><div class="skill-top"><span>Problem Solving</span><span>65%</span></div><div class="progress"><span style="--level:65%"></span></div></div>
+        </div>
+        <div class="tag-row"><span>Teamwork</span><span>Communication</span><span>Adaptability</span><span>Self-learning</span></div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="projects">
+      <div class="container">
+        <p class="eyebrow">THINGS I'VE MADE</p><h2 class="section-title">Featured Projects</h2>
+        <p class="section-lead">Use the filters to explore projects by technology or category.</p>
+        <div class="filter-row" id="projectFilters" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all">All Projects</button><button class="filter-btn" data-filter="web">Web Development</button><button class="filter-btn" data-filter="javascript">JavaScript</button><button class="filter-btn" data-filter="python">Python</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="container">
+        <p class="eyebrow">MILESTONES</p><h2 class="section-title">Achievements & Activities</h2>
+        <div class="about-grid">
+          <div class="info-card"><span class="info-icon">✦</span><h3>Coursework</h3><p>Add relevant courses, certificates, or workshops you have completed.</p></div>
+          <div class="info-card"><span class="info-icon">⌁</span><h3>College Activities</h3><p>Add hackathons, presentations, volunteering, or student club activities.</p></div>
+          <div class="info-card"><span class="info-icon">✓</span><h3>Personal Milestones</h3><p>Highlight measurable achievements and skills you have practiced.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2 class="section-title">Have an idea?<br><span class="accent">Let's talk.</span></h2><p class="section-lead">Use the form to prepare an email. This static website does not send messages to a server.</p><div class="contact-detail"><span>✉</span><div><strong>Email</strong><p>your.email@example.com</p></div></div><div class="contact-detail"><span>⌖</span><div><strong>Location</strong><p>Your City, India</p></div></div></div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <label for="name">Full name <span>*</span></label><input id="name" name="name" type="text" required minlength="2" placeholder="Your name">
+          <label for="email">Email address <span>*</span></label><input id="email" name="email" type="email" required placeholder="you@example.com">
+          <label for="subject">Subject <span>*</span></label><input id="subject" name="subject" type="text" required placeholder="What is this about?">
+          <label for="message">Message <span>*</span></label><textarea id="message" name="message" rows="5" required minlength="10" placeholder="Write your message..."></textarea>
+          <p class="form-message" id="formMessage" role="status"></p>
+          <button class="btn primary full-width" type="submit">Prepare Email ↗</button>
+          <small>All fields are required. Your email app will open after validation.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="logo" href="#home">Student<span>Portfolio</span></a><p>Designed and built with curiosity. © <span id="year"></span></p><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>

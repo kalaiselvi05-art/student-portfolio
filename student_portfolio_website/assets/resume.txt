@@ -1,0 +1,35 @@
+YOUR NAME
+Student | Aspiring Developer
+
+EMAIL: your.email@example.com
+PHONE: +91-XXXXXXXXXX
+LOCATION: Your City, India
+GITHUB: https://github.com/your-username
+LINKEDIN: https://www.linkedin.com/in/your-profile
+
+PROFILE
+Computer Science student interested in web development, programming, and practical problem-solving. Eager to learn new technologies and build useful projects.
+
+EDUCATION
+B.Sc. Computer Science | Your College Name
+Year: 2025 – Present
+Relevant subjects: Programming, Computer Fundamentals, Data Structures (edit to match your studies)
+
+TECHNICAL SKILLS
+HTML, CSS, JavaScript, Python, Git and GitHub
+(Keep only the skills you can confidently discuss.)
+
+PROJECTS
+Student Portfolio Website
+Built a responsive portfolio using HTML, CSS, and JavaScript with project filtering and form validation.
+
+Interactive Shopping Cart
+Created a basic shopping cart interface to practice JavaScript DOM manipulation.
+
+Student Result Analyzer
+Developed a beginner Python project concept to calculate and summarize student marks.
+
+ACHIEVEMENTS & ACTIVITIES
+Add verified certificates, workshops, college activities, and achievements here.
+
+IMPORTANT: Replace every sample field with accurate information before sharing this resume.
